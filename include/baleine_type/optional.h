@@ -12,6 +12,6 @@ static Option<T> Some(T&& value) {
     return std::make_optional(value);
 }
 
-inline constexpr std::nullopt_t None {std::nullopt_t::_Construct::_Token};
+inline constexpr std::nullopt_t None {std::nullopt};
 
-}
+} // namespace baleine

@@ -90,7 +90,7 @@ class Result {
         return None;
     }
 
-    T unwrap() {
+    T or_throw() {
         try_throw_error();
         return take();
     }

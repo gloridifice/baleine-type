@@ -2,12 +2,12 @@
 
 namespace baleine {
 
-using i32 = int;
-using i64 = long;
-using u32 = unsigned int;
-using u64 = unsigned long int;
-using f32 = float;
-using f64 = double;
+using i32 = int32_t;
+using i64 = int64_t;
+using u32 = uint32_t;
+using u64 = uint64_t;
+using f32 = float_t;
+using f64 = double_t;
 
 }
 

@@ -46,7 +46,7 @@ TEST_CASE("Result") {
     auto ok = Ok(std::move(a));
     CHECK(ok.is_ok());
     // content moved here!
-    CHECK(ok.unwrap()[0] == 1);
+    CHECK(ok.or_throw()[0] == 1);
     // so 'ok' is not valid now.
     CHECK(!ok.is_valid());
 

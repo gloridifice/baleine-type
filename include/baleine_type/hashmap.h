@@ -1,0 +1,10 @@
+#pragma once
+
+#include "unordered_map"
+
+namespace baleine {
+
+template<typename K, typename V>
+using HashMap = std::unordered_map<K, V>;
+
+}
